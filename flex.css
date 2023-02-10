@@ -10,6 +10,9 @@ main{
 }
 header{
     background-color: red;
+    margin: 5px;
+    padding: 10px;
+    
 }
 article{
     background-color: gray;
@@ -26,12 +29,17 @@ h1{
     background-color: white;
     color: #9c9c9c;
 }
-nav{
+.szurke{
     border: 1px solid gray;
+    background-color: gray;
 }
+
+
+
 footer{
     text-align: center;
     text-decoration: none;
+    border: 1px solid black;
 }
 article{
     text-align: justify;
@@ -40,6 +48,39 @@ article{
     background: #9c9c9c;
     flex: 1 1 200px; /* flex-grow | flex-shrink | flex-basic */
 }
+#menu{
+    display: flex;
+    text-align: end;
+    
+}
+#menu a{
+   border: 1px solid black;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding: 5px;
+   text-decoration: none;
+   color: red;
+   
+}
+.feher{
+    background-color: white;
+    border: 1px solid black;
+}
+#home a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+.alja a{
+    text-decoration: none;
+    color: red;
+   
+    
+}
+
 
 article:nth-of-type(4){
     flex-grow: 10;
